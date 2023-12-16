@@ -1,16 +1,10 @@
 ﻿using BenchmarkDotNet.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
     public class BenchmarkLINQPerformance
     {
-        private readonly List<string>
-        data = new List<string>();
+        private readonly List<string> data = new List<string>();
 
         [GlobalSetup]
         public void GlobalSetup()
